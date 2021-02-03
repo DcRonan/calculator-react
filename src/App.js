@@ -1,9 +1,7 @@
-const App = () => {
-  return (
-    <div>
-      <header>Calculator - React</header>
-    </div>
-  );
-};
+const App = () => (
+  <div>
+    <header>Calculator - React</header>
+  </div>
+);
 
 export default App;
