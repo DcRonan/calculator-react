@@ -44,8 +44,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "big.js": "^5.2.2",
-    "prop-types": "^15.7.2"
-  }
+  "devDependencies": {}
 }
