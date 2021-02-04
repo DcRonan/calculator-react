@@ -20,11 +20,20 @@ export default class App extends Component {
     this.setState(state);
   }
 
+  update = () => {
+    // eslint-disable-next-line no-unused-vars
+    const { total, next, operation } = this.state;
+
+    if (next) {
+      return next;
+    }
+    return total;
+  }
+
   render() {
-    const { data } = this.state;
     return (
       <section>
-        <Display result={data.next ? data.next : data.total} />
+        <Display result={this.update()} />
         <ButtonPanel handleClick={this.handleClick} />
       </section>
     );

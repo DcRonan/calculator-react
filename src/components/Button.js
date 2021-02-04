@@ -3,7 +3,11 @@ import PropTypes from 'prop-types';
 const Button = props => {
   const { name, handleClick } = props;
 
-  return <button type="button" onClick={handleClick(name)}>{name}</button>;
+  return (
+    <button type="button" onClick={() => handleClick(name)}>
+      {name}
+    </button>
+  );
 };
 
 Button.defaultProps = {
