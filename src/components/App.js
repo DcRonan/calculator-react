@@ -25,7 +25,7 @@ export default class App extends Component {
     return (
       <section>
         <Display result={data.next ? data.next : data.total} />
-        <ButtonPanel />
+        <ButtonPanel handleClick={this.handleClick} />
       </section>
     );
   }
