@@ -21,9 +21,10 @@ export default class App extends Component {
   }
 
   render() {
+    const { data } = this.state;
     return (
       <section>
-        <Display />
+        <Display result={data.next ? data.next : data.total} />
         <ButtonPanel />
       </section>
     );
