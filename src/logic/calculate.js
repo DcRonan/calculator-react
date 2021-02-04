@@ -1,4 +1,6 @@
-const Calculate = (data, btnName) => {
+import operate from './operate';
+
+const calculate = (data, btnName) => {
   let { total, next, operation } = data;
 
   switch (btnName) {
@@ -8,15 +10,24 @@ const Calculate = (data, btnName) => {
       operation = null;
       break;
     case '+/-':
-      // total = total + -1 + 'x'
+      total = operate(total, -1, 'x');
+      break;
+    case '.':
+      if (!next.includes('.')) next += '.';
+      break;
+    case '=':
+      total = operate(total, next, operation);
+      next = null;
+      operation = null;
       break;
     default:
-      total = { total, next, operation };
+      total = operate(total, next, operation);
+      next = null;
+      operation = btnName;
       break;
   }
 
-  const obj = { total, next, operation };
-  return obj;
+  return { total, next, operation };
 };
 
-export default Calculate;
+export default calculate;
