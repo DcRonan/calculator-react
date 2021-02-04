@@ -1,4 +1,4 @@
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Display = ({ result }) => <h1>{result}</h1>;
 
@@ -9,5 +9,5 @@ Display.defaultProps = {
 };
 
 Display.propTypes = {
-  result: propTypes.string,
+  result: PropTypes.string,
 };
