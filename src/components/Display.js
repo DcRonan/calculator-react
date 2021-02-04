@@ -2,12 +2,12 @@ import PropTypes from 'prop-types';
 
 const Display = ({ result }) => <h1>{result}</h1>;
 
-export default Display;
-
 Display.defaultProps = {
-  result: '0',
+  result: 'Calculator - React',
 };
 
 Display.propTypes = {
   result: PropTypes.string,
 };
+
+export default Display;

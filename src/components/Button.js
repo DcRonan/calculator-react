@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 
-const Button = key => <button type="button">{key}</button>;
+const Button = ({ name }) => <button type="button">{name}</button>;
 
 Button.defaultProps = {
-  key: '',
+  name: '',
 };
 
 Button.propTypes = {
-  key: PropTypes.string,
+  name: PropTypes.string,
 };
 
 export default Button;
