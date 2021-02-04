@@ -2,16 +2,21 @@ const Calculate = (data, btnName) => {
   let { total, next, operation } = data;
 
   switch (btnName) {
-    default:
-      break;
     case 'AC':
-      total = null;
+      total = 0;
       next = null;
       operation = null;
       break;
+    case '+/-':
+      // total = total + -1 + 'x'
+      break;
+    default:
+      total = { total, next, operation };
+      break;
   }
 
-  return { total, next, operation };
+  const obj = { total, next, operation };
+  return obj;
 };
 
 export default Calculate;
