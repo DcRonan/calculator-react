@@ -6,29 +6,14 @@ const calculate = (data, btnName) => {
   switch (btnName) {
     case 'AC':
       total = 0;
-      next = null;
-      operation = null;
+      next = '';
+      operation = '';
       break;
     case '+/-':
       total = operate(total, -1, 'x');
       break;
-    case '.':
-      if (next) {
-        if (next.indexOf(btnName) < 0) next += '.';
-      } else if (operation) next += '0.';
-      else {
-        total += '.';
-      }
-      break;
-    case '=':
-      total = operate(total, next, operation);
-      next = null;
-      operation = null;
-      break;
     default:
       total = operate(total, next, operation);
-      next = null;
-      operation = btnName;
       break;
   }
 

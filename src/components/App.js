@@ -1,7 +1,7 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
-// eslint-disable-next-line no-unused-vars
 import calculate from '../logic/calculate';
 
 export default class App extends Component {
@@ -13,15 +13,16 @@ export default class App extends Component {
       next: null,
       operation: null,
     };
+
+    // this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = buttonName => {
-    const state = calculate(this.state, buttonName);
-    this.setState(state);
+    const newState = calculate(this.state, buttonName);
+    this.setState(newState);
   }
 
-  update = () => {
-    // eslint-disable-next-line no-unused-vars
+  update() {
     const { total, next, operation } = this.state;
 
     if (next) {
