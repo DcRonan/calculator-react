@@ -45,9 +45,9 @@
 > Follow these steps below to get my Application working. I used [npm](https://www.npmjs.com/) to manage all my packages for JavaScript. If you don't have it installed already, you can install it [here](https://www.npmjs.com/get-npm)
 
 1. - [ ] Open your `Terminal`
-2. - [ ] Navigate to the directory where you will like to install the repo by running `cd FOLDER-NAME`
-3. - [ ] Run `git clone ADD-URL-HERE` to download <b>or</b> you can download using `HTTPS` by running `git clone ADD-URL-HERE` in the terminal
-4. - [ ] Run `cd ADD-REPO-NAME` to enter the directory
+2. - [ ] Navigate to the directory where you will like to install the repo by running `cd calculator-react`
+3. - [ ] Run `git clone git@github.com:DcRonan/calculator-react.git` to download <b>or</b> you can download using `HTTPS` by running `git clone https://github.com/DcRonan/calculator-react.git` in the terminal
+4. - [ ] Run `cd calculator-react` to enter the directory
 5. - [ ] Run `npm i` to install all the packages
 6. - [ ] Run `npm start` to start the app
 
