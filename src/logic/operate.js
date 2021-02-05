@@ -6,10 +6,8 @@ const operate = (numOne, numTwo, operation) => {
   let result = 0;
 
   switch (operation) {
-    case '%':
-      result = x.mod(y);
-      break;
     case '÷':
+      if (numTwo === '0') result = undefined;
       result = x.div(y);
       break;
     case 'x':
