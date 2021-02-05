@@ -13,8 +13,6 @@ export default class App extends Component {
       next: null,
       operation: null,
     };
-
-    // this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = buttonName => {
