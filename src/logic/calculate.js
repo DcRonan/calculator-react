@@ -4,11 +4,6 @@ const calculate = (data, btnName) => {
   let { total, next, operation } = data;
 
   switch (btnName) {
-    case 'AC':
-      total = '';
-      next = '';
-      operation = '';
-      break;
     case '+/-':
       if (total) total = operate(total, '-1', 'x');
       else if (next) next = operate(next, '-1', 'x');
@@ -65,6 +60,11 @@ const calculate = (data, btnName) => {
       else {
         next = btnName;
       }
+      break;
+    case 'AC':
+      total = null;
+      next = null;
+      operation = null;
       break;
     default:
       break;
