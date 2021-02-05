@@ -12,18 +12,8 @@ const calculate = (data, btnName) => {
     case '+/-':
       total = operate(total, -1, 'x');
       break;
-    case '.':
-      if (!next.includes('.')) next += '.';
-      break;
-    case '=':
-      total = operate(total, next, operation);
-      next = null;
-      operation = null;
-      break;
     default:
       total = operate(total, next, operation);
-      next = null;
-      operation = btnName;
       break;
   }
 
