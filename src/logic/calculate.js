@@ -5,7 +5,7 @@ const calculate = (data, btnName) => {
 
   switch (btnName) {
     case 'AC':
-      total = '0';
+      total = '';
       next = '';
       operation = '';
       break;
