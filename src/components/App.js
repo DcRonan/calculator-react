@@ -1,7 +1,11 @@
+import ButtonPanel from './ButtonPanel';
+import Display from './Display';
+
 const App = () => (
-  <section>
-    <header>Calculator - React</header>
-  </section>
+  <>
+    <Display />
+    <ButtonPanel />
+  </>
 );
 
 export default App;
