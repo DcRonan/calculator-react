@@ -4,10 +4,10 @@ import Display from './Display';
 import calculate from '../logic/calculate';
 
 const App = () => (
-  <section>
+  <>
     <Display />
     <ButtonPanel />
-  </section>
+  </>
 );
 
 export default App;
