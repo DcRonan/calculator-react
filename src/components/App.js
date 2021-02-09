@@ -6,7 +6,7 @@ import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 
 const data = {
-  total: null,
+  total: '0',
   next: null,
   operation: null,
 };
@@ -27,11 +27,15 @@ const App = () => {
   };
 
   return (
-    <main>
-      <Navbar />
-      <Display result={update()} />
-      <ButtonPanel handleClick={handleClick} />
-    </main>
+    <>
+      <nav>
+        <Navbar />
+      </nav>
+      <main className="calculator">
+        <Display result={update()} />
+        <ButtonPanel handleClick={handleClick} />
+      </main>
+    </>
   );
 };
 

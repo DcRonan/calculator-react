@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Display = ({ result }) => <h1>{result}</h1>;
+const Display = ({ result }) => <div className="calculator"><h2>{result}</h2></div>;
 
 Display.defaultProps = {
   result: '0',

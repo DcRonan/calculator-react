@@ -56,7 +56,7 @@ const calculate = (data, btnName) => {
       }
       break;
     case 'AC':
-      total = null;
+      total = '0';
       next = null;
       operation = null;
       break;
