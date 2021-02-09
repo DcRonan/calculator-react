@@ -5,7 +5,7 @@ const Button = props => {
 
   return (
     <>
-      <button type="button" onClick={() => handleClick(name)}>
+      <button className="btn" type="button" onClick={() => handleClick(name)}>
         {name}
       </button>
     </>

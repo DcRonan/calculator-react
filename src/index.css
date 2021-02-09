@@ -1,4 +1,33 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .calculator {
   width: 700px;
-  background-color: red;
+  background-color: gray;
+  border-radius: 10px 10px 0 0;
+}
+
+.display {
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+}
+
+.ButtonPanel > * {
+  display: flex;
+  width: 100%;
+}
+
+.btn {
+  flex-basis: 25%;
+}
+
+.group {
+  height: 100px;
 }
