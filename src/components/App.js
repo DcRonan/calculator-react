@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Navbar from './Navbar';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
@@ -28,6 +28,7 @@ const App = () => {
 
   return (
     <main>
+      <Navbar />
       <Display result={update()} />
       <ButtonPanel handleClick={handleClick} />
     </main>
