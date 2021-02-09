@@ -5,6 +5,10 @@ body {
   align-items: center;
 }
 
+nav * {
+  padding-right: 10px;
+}
+
 .calculator {
   width: 700px;
   background-color: gray;
@@ -21,13 +25,18 @@ body {
 
 .ButtonPanel > * {
   display: flex;
-  width: 100%;
 }
 
 .btn {
   flex-basis: 25%;
+  border: black 1px solid;
 }
 
 .group {
   height: 100px;
+}
+
+.group-five {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
 }
