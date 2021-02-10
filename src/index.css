@@ -8,13 +8,6 @@
           box-sizing: border-box;
 }
 
-main {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
 nav {
   top: 0;
   width: 100%;
@@ -33,10 +26,13 @@ nav a:hover {
 }
 
 .navbar {
-  width: 20%;
   display: flex;
   justify-content: space-between;
   margin-right: 10px;
+}
+
+.navbar > * {
+  padding: 0 10px 0 10px;
 }
 
 .title {
@@ -46,7 +42,8 @@ nav a:hover {
 }
 
 .calculator {
-  width: 700px;
+  max-width: 700px;
+  min-width: 300px;
   background-color: gray;
   border-radius: 10px 10px 0 0;
 }
@@ -81,4 +78,10 @@ nav a:hover {
 .group-five {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
+}
+
+.calc-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10px 0 10px;
 }

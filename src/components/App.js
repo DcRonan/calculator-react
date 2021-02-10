@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
+import Calculator from './Calculator';
 
 const data = {
   total: '0',
@@ -32,9 +33,14 @@ const App = () => {
         <Navbar />
       </header>
       <main>
-        <section>
-          <Display result={update()} />
-          <ButtonPanel handleClick={handleClick} />
+        <section className="calc-main">
+          <div>
+            <Calculator />
+          </div>
+          <div style={{ width: '70%' }}>
+            <Display result={update()} />
+            <ButtonPanel handleClick={handleClick} />
+          </div>
         </section>
       </main>
     </>
