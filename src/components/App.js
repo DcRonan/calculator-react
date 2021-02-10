@@ -1,40 +1,50 @@
 /* eslint-disable no-unused-vars */
-import React, { Component } from 'react';
-import ButtonPanel from './ButtonPanel';
+import React, { useState } from 'react';
+import Navbar from './Navbar';
 import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
+import Calculator from './Calculator';
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
+const data = {
+  total: '0',
+  next: null,
+  operation: null,
+};
 
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-  }
+const App = () => {
+  const [state, setState] = useState(data);
 
-  handleClick = buttonName => {
-    const newState = calculate(this.state, buttonName);
-    this.setState(newState);
-  }
+  const handleClick = buttonName => {
+    const newState = calculate(state, buttonName);
+    setState(newState);
+  };
 
-  update() {
-    const { total, next, operation } = this.state;
+  const update = () => {
+    const { total, next, operation } = state;
 
-    if (next) {
-      return next;
-    }
+    if (next) return next;
     return total;
-  }
+  };
 
-  render() {
-    return (
-      <section>
-        <Display result={this.update()} />
-        <ButtonPanel handleClick={this.handleClick} />
-      </section>
-    );
-  }
-}
+  return (
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <section className="calc-main">
+          <div>
+            <Calculator />
+          </div>
+          <div>
+            <Display result={update()} />
+            <ButtonPanel handleClick={handleClick} />
+          </div>
+        </section>
+      </main>
+    </>
+  );
+};
+
+export default App;
