@@ -36,4 +36,27 @@ describe('Testing the calculator operations and sum', () => {
     const { total } = result;
     expect(total).toEqual('200');
   });
+
+  test('÷ button should divide a number and return its correct sum', () => {
+    const result = calculate({ total: '100', next: '20', operation: '÷' }, '=');
+    const { total } = result;
+    expect(total).toEqual('5');
+  });
+
+  test('AC button should clear all operations and total back to 0', () => {
+    const result = calculate({ total: '100', next: '', operation: '' }, 'AC');
+    expect(result).toEqual({ total: '0', next: null, operation: null });
+  });
+
+  test('. button should a decimal to a number', () => {
+    const result = calculate({ total: '23', next: '', operation: '' }, '.');
+    const { total } = result;
+    expect(total).toEqual('23.');
+  });
+
+  test('= button should keep the same total', () => {
+    const result = calculate({ total: '150', next: '', operation: '' }, '=');
+    const { total } = result;
+    expect(total).toEqual('150');
+  });
 });
