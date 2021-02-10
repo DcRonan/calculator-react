@@ -28,12 +28,14 @@ const App = () => {
 
   return (
     <>
-      <nav>
+      <header>
         <Navbar />
-      </nav>
-      <main className="calculator">
-        <Display result={update()} />
-        <ButtonPanel handleClick={handleClick} />
+      </header>
+      <main>
+        <section>
+          <Display result={update()} />
+          <ButtonPanel handleClick={handleClick} />
+        </section>
       </main>
     </>
   );

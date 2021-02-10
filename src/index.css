@@ -1,4 +1,4 @@
-body {
+main {
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -6,6 +6,8 @@ body {
 }
 
 nav * {
+  top: 0;
+  width: 100%;
   padding-right: 10px;
 }
 
@@ -30,6 +32,12 @@ nav * {
 .btn {
   flex-basis: 25%;
   border: black 1px solid;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(85%);
 }
 
 .group {
