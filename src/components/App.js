@@ -37,7 +37,7 @@ const App = () => {
           <div>
             <Calculator />
           </div>
-          <div style={{ width: '70%' }}>
+          <div>
             <Display result={update()} />
             <ButtonPanel handleClick={handleClick} />
           </div>

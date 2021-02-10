@@ -17,6 +17,8 @@
 
 > I have built a calculator using React
 
+![img](./assets/main-sc.png)
+
 ## Built With 🛠
 
 ```

@@ -42,8 +42,7 @@ nav a:hover {
 }
 
 .calculator {
-  max-width: 700px;
-  min-width: 300px;
+  width: 700px;
   background-color: gray;
   border-radius: 10px 10px 0 0;
 }
