@@ -3,6 +3,6 @@ import App from '../components/App';
 
 test('renders calculator link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Calculator - React/i);
+  const linkElement = screen.getByText(/Let`s do some math!/i);
   expect(linkElement).toBeInTheDocument();
 });
