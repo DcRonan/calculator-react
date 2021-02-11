@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checks if the Routes have the correct directories should render to App route 1`] = `
+Array [
+  <nav>
+    <div>
+      <div
+        className="title"
+      >
+         Math Magicians 
+      </div>
+    </div>
+    <div
+      className="navbar"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </nav>,
+  <section
+    style={
+      Object {
+        "padding": "50px 20px 30px 20px",
+      }
+    }
+  >
+    <h3
+      style={
+        Object {
+          "padding": "0 0 30px 10px",
+        }
+      }
+    >
+      Welcome to our page!
+    </h3>
+    <div>
+      <div
+        style={
+          Object {
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum.
+      </div>
+      <div>
+        IpsuLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+      </div>
+    </div>
+  </section>,
+]
+`;
+
+exports[`checks if the Routes have the correct directories should render to Error route 1`] = `
+Array [
+  <nav>
+    <div>
+      <div
+        className="title"
+      >
+         Math Magicians 
+      </div>
+    </div>
+    <div
+      className="navbar"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </nav>,
+  <section
+    style={
+      Object {
+        "padding": "50px 20px 30px 20px",
+      }
+    }
+  >
+    <h3
+      style={
+        Object {
+          "padding": "0 0 30px 10px",
+        }
+      }
+    >
+      Welcome to our page!
+    </h3>
+    <div>
+      <div
+        style={
+          Object {
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum.
+      </div>
+      <div>
+        IpsuLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+      </div>
+    </div>
+  </section>,
+]
+`;
+
+exports[`checks if the Routes have the correct directories should render to Home route 1`] = `
+Array [
+  <nav>
+    <div>
+      <div
+        className="title"
+      >
+         Math Magicians 
+      </div>
+    </div>
+    <div
+      className="navbar"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </nav>,
+  <section
+    style={
+      Object {
+        "padding": "50px 20px 30px 20px",
+      }
+    }
+  >
+    <h3
+      style={
+        Object {
+          "padding": "0 0 30px 10px",
+        }
+      }
+    >
+      Welcome to our page!
+    </h3>
+    <div>
+      <div
+        style={
+          Object {
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum.
+      </div>
+      <div>
+        IpsuLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+      </div>
+    </div>
+  </section>,
+]
+`;
+
+exports[`checks if the Routes have the correct directories should render to Quote route 1`] = `
+Array [
+  <nav>
+    <div>
+      <div
+        className="title"
+      >
+         Math Magicians 
+      </div>
+    </div>
+    <div
+      className="navbar"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </nav>,
+  <section
+    style={
+      Object {
+        "padding": "50px 20px 30px 20px",
+      }
+    }
+  >
+    <h3
+      style={
+        Object {
+          "padding": "0 0 30px 10px",
+        }
+      }
+    >
+      Welcome to our page!
+    </h3>
+    <div>
+      <div
+        style={
+          Object {
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum.
+      </div>
+      <div>
+        IpsuLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+      </div>
+    </div>
+  </section>,
+]
+`;

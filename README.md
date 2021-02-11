@@ -17,10 +17,13 @@
 
 > I have built a calculator using React
 
+![img](./assets/main-sc.png)
+
 ## Built With 🛠
 
 ```
 - React
+- Jest
 - JavaScript
 - HTML5
 - CSS
@@ -29,6 +32,7 @@
 ```
 
 ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=React&logoColor=white&labelColor=000)
+![Jest](https://img.shields.io/badge/-Jest-C21325?style=for-the-badge&logo=Jest&logoColor=white&labelColor=000)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white&labelColor=000)
 ![npm](https://img.shields.io/badge/-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=000)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=000)
@@ -50,6 +54,17 @@
 4. - [ ] Run `cd calculator-react` to enter the directory
 5. - [ ] Run `npm i` to install all the packages
 6. - [ ] Run `npm start` to start the app
+
+## Testing ⚙
+
+> I have used a JavaScript testing framework to test my code, called [Jest](https://jestjs.io/).
+
+1. - [ ] Open `Terminal` again
+2. - [ ] Run `cd calculator-react` to enter the directory
+3. - [ ] Run `npm test` to start testing
+4. - [ ] All tests will pass ✅
+
+![img](./assets/tests.png)
 
 
 ## Authors

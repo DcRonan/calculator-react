@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checks if Calculator component renders correctly should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": "20px",
+    }
+  }
+>
+  Let\`s do some math!
+</div>
+`;
