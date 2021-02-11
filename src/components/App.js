@@ -34,12 +34,14 @@ const App = () => {
       </header>
       <main>
         <section className="calc-main">
-          <div>
+          <div style={{ width: '60%' }}>
             <Calculator />
           </div>
-          <div>
-            <Display result={update()} />
-            <ButtonPanel handleClick={handleClick} />
+          <div style={{ width: '40%' }}>
+            <div className="calculator">
+              <Display result={update()} />
+              <ButtonPanel handleClick={handleClick} />
+            </div>
           </div>
         </section>
       </main>
