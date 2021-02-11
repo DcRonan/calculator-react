@@ -1,4 +1,4 @@
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <nav>
@@ -6,15 +6,9 @@ const Navbar = () => (
       <div className="title"> Math Magicians </div>
     </div>
     <div className="navbar">
-      <BrowserRouter>
-        <Link to="/">Home </Link>
-        <Link
-          to="/calculator"
-        >
-          Calculator
-        </Link>
-        <Link to="/quote">Quote</Link>
-      </BrowserRouter>
+      <Link to="/">Home </Link>
+      <Link to="/calculator">Calculator</Link>
+      <Link to="/quote">Quote</Link>
     </div>
   </nav>
 );
