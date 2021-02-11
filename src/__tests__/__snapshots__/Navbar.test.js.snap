@@ -21,13 +21,6 @@ exports[`checks if Navbar component renders correctly should render correctly 1`
     <a
       href="/calculator"
       onClick={[Function]}
-      style={
-        Object {
-          "borderLeft": "1px solid black",
-          "borderRight": "1px solid black",
-          "padding": "0 8px 0 8px",
-        }
-      }
     >
       Calculator
     </a>

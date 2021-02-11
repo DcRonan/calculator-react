@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Navbar from './Navbar';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
