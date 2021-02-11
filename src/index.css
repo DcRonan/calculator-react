@@ -8,16 +8,24 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #3e3843;
+  color: white;
+  font-weight: lighter;
+}
+
 nav {
   top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: orange;
+  padding: 5px;
 }
 
 nav a {
-  color: blue;
+  color: white;
   text-decoration: none;
 }
 

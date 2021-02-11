@@ -53,6 +53,17 @@
 5. - [ ] Run `npm i` to install all the packages
 6. - [ ] Run `npm start` to start the app
 
+## Testing ⚙
+
+> I have used a JavaScript testing framework to test my code, called [Jest](https://jestjs.io/).
+
+1. - [ ] Open `Terminal` again
+2. - [ ] Run `cd calculator-react` to enter the directory
+3. - [ ] Run `npm test` to start testing
+4. - [ ] All tests will pass ✅
+
+![img](./assets/tests.png)
+
 
 ## Authors
 
