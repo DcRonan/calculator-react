@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checks if Display component renders correctly should render correctly 1`] = `
+<div
+  className="calculator display"
+>
+  <h2
+    style={
+      Object {
+        "padding": "40px",
+      }
+    }
+  >
+    0
+  </h2>
+</div>
+`;
